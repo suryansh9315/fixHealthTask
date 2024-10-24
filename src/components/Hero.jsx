@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -13,7 +14,7 @@ const Hero = () => {
           Trusted care by 80+ top experts, now online
         </div>
         <div className="z-10 px-8 py-3 bg-white cursor-pointer text-black rounded-3xl mb-20 mt-5 font-bold">
-          Book Now
+          <Link href={"#contact"}>Book Now</Link>
         </div>
       </div>
     </div>

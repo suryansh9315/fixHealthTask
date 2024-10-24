@@ -56,7 +56,7 @@ const Contact = () => {
   }, [city, cityparam]);
 
   return (
-    <div className="my-40 max-w-[1400px] mx-auto">
+    <div id="contact" className="my-40 max-w-[1400px] mx-auto">
       <div className="mx-10 flex gap-5 flex-col xl:flex-row">
         <div className="w-full md:w-2/3 xl:w-1/3 flex flex-col gap-5">
           <div className="text-5xl font-normal">Get in touch</div>

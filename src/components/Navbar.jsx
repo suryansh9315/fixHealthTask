@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Toggle from "./Toggle";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -13,7 +14,7 @@ const Navbar = () => {
             <Toggle />
           </div>
           <div className="z-10 px-8 py-3 bg-black dark:bg-white cursor-pointer text-white dark:text-black rounded-3xl font-bold">
-            Book Now
+            <Link href={"#contact"}>Book Now</Link>
           </div>
         </div>
       </div>
