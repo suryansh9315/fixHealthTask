@@ -29,9 +29,9 @@ const Contact = () => {
   const handleCityChange = () => {
     let cityName;
     if (cityparam) {
-      cityName = cityparam.toLowerCase()
+      cityName = cityparam.toLowerCase();
       setCity(cityparam);
-    }else{
+    } else {
       cityName = city.toLowerCase();
     }
     if (cityName) {
@@ -40,7 +40,7 @@ const Contact = () => {
       );
       console.log(cityName, filteredDoctors);
       // if (filteredDoctors) {
-        setDoctors(filteredDoctors);
+      setDoctors(filteredDoctors);
       // }
     } else {
       setDoctors(doctors2);
@@ -61,8 +61,9 @@ const Contact = () => {
         <div className="w-full md:w-2/3 xl:w-1/3 flex flex-col gap-5">
           <div className="text-5xl font-normal">Get in touch</div>
           <div className="text-base font-normal pr-10">
-            Do you have a complaint in mind? Or are you just curious to talk to us? Сomplete the form to contact us.
-            </div>
+            Do you have a complaint in mind? Or are you just curious to talk to
+            us? Сomplete the form to contact us.
+          </div>
           <Image
             className="hidden xl:flex mt-10 w-full h-[600px] object-cover rounded-2xl"
             width={200}
