@@ -1,20 +1,17 @@
-"use client";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Reviews from "@/components/Reviews";
-import React, { Suspense } from "react";
+import React from "react";
 
 const Home = () => {
   return (
-    <Suspense>
-      <div className="">
-        <Navbar />
-        <Hero />
-        <Reviews />
-        <Contact />
-      </div>
-    </Suspense>
+    <div className="">
+      <Navbar />
+      <Hero />
+      <Reviews />
+      <Contact />
+    </div>
   );
 };
 
